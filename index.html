@@ -11,18 +11,10 @@
     <header>
         <a href="index.php" class="title">danbi1</a>
         <?php
-            $buy_url = "";
-            if(isset($_SESSION['user_id']))
-            {
-                echo "<a href='php/mypage.php' class='login'>마이페이지</a>";
-                echo "<a href='php/logout.php' class='register'>로그아웃</a>";
-                $buy_url = "member_buy.html";
-            }
-            else
+
             {
                 echo "<a href='signin.html' class='login'>로그인</a>";
                 echo "<a href='signup.html' class='register'>회원가입</a>";
-                $buy_url = "nonmember_buy.html";
             }
         ?>
     </header>
