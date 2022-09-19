@@ -8,7 +8,7 @@
     font-family: 'GangwonEduPowerExtraBoldA';
 }
     body{
-        background-color: #5271FF;
+        background-color: #000;
         }
     a { text-decoration: none; color: rgb(254, 254, 254); }
     a:visited { text-decoration: none; }
@@ -63,7 +63,7 @@
     width: 310px;
     height: 40px;
     font-size: 15px;
-    background-color: #2EE59D;
+    background-color: #5172ff;
     color: #fff;
     border: none;
     cursor: pointer;
