@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'GangwonEduPowerExtraBoldA';
+}
+    body{
+        background-color: #000;
+        }
+    a { text-decoration: none; color: rgb(254, 254, 254); }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
+    header{
+        margin-top: 80px;
+        margin-left: 85px;
+        font-size: 65px;
+    }
+    .title{
+        font-size: 65px;
+        }
+    .login{
+        margin-left: 1350px;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    .register{
+        font-size: 30px;
+        white-space : nowrap;
+    }
+    footer{
+        margin-top: 740px;
+        margin-left: 1800px;
+        font-size: 10px;
+        color: #1f7dd4;
+        white-space : nowrap;
+    }
+    @media all and (min-width:720px) and (max-width:980px) {
+        header{
+            margin-top: 80px;
+            margin-left: 80px;
+        }
+        .title{
+            font-size: 50px;
+            }
+        .login{
+            margin-left: 1950px;
+            margin-right: 20px;
+            font-size: 25px;
+        }
+        .register{
+            font-size: 25px;
+        }
+        footer{
+            margin-left: 80%;
+            font-size: 15px;
+            color: #1f7dd4;
+            white-space: nowrap;
+        }
