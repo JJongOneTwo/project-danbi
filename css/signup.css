@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'GangwonEduPowerExtraBoldA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-family: 'Rose';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Rose.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 *{
-    font-family: 'GangwonEduPowerExtraBoldA';
+    font-family: 'Rose';
 }
     body{
         background-color: #000;
