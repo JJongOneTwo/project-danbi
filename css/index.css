@@ -27,10 +27,14 @@
         margin-left: 1350px;
         margin-right: 20px;
         font-size: 30px;
+        white-space: nowrap;
     }
     .register{
         font-size: 30px;
-        white-space : nowrap;
+        white-space: nowrap;
+    }
+    .section input[id*="slide"]{
+        desplay: none;
     }
     footer{
         margin-top: 740px;
