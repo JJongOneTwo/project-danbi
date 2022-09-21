@@ -10,42 +10,76 @@
 <body>
     <header>
         <a href="index.html" class="title">단비</a>
-                <a href='signin.html' class='login'>　로그인</a>
-                <a href='signup.html' class='register'>회원가입</a>
+        <a href='signin.html' class='login'>로그인</a>
+        <a href='signup.html' class='register'>회원가입</a>
     </header>
     <section>
         <div class="section">
             <input type="radio" name="slide" id="slide01" checked>
             <input type="radio" name="slide" id="slide02">
             <input type="radio" name="slide" id="slide03">
-
-            <div cclass="slidewrap">
+            <div class="slidewrap">
+                
                 <ul class="slidelist">
-                    <li>
+                    <!-- 슬라이드 영역 -->
+                    <li class="slideitem">
                         <a>
+                            <div class="textbox">
+                                <h3>첫번째 슬라이드</h3>
+                                <p>첫번째 슬라이드 입니다.</p>
+                            </div>
+                            <img src="img/dog1.jpg">
+                        </a>
+                    </li>
+                    <li class="slideitem">
+                        <a>
+                            
+                            <div class="textbox">
+                                <h3>두번째 슬라이드</h3>
+                                <p>두번째 슬라이드 입니다.</p>
+                            </div>
+                            <img src="img/dog2.jpg">
+                        </a>
+                    </li>
+                    <li class="slideitem">
+                        <a>
+                            
+                            <div class="textbox">
+                                <h3>세번째 슬라이드</h3>
+                                <p>세번째 슬라이드 입니다.</p>
+                            </div>
+                            <img src="img/dog3.jpg">
+                        </a>
+                    </li class="slideitem">
+        
+                    <!-- 좌,우 슬라이드 버튼 -->
+                    <div class="slide-control">
+                        <div>
                             <label for="slide03" class="left"></label>
-                            <img src="img/dog1.jpg" alt="slide01">
                             <label for="slide02" class="right"></label>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
+                        </div>
+                        <div>
                             <label for="slide01" class="left"></label>
-                            <img src="img/dog2.jpg" alt="slide02">
                             <label for="slide03" class="right"></label>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
+                        </div>
+                        <div>
                             <label for="slide02" class="left"></label>
-                            <img src="img/dog3.jpg" alt="slide03">
                             <label for="slide01" class="right"></label>
-                        </a>
-                    </li>
+                        </div>
+                    </div>
+        
+                </ul>
+                <!-- 페이징 -->
+                <ul class="slide-pagelist">
+                    <li><label for="slide01"></label></li>
+                    <li><label for="slide02"></label></li>
+                    <li><label for="slide03"></label></li>
                 </ul>
             </div>
+        
+            
         </div>
-    </section>
+            </section>
     <footer> 
     </footer>
 </body>
