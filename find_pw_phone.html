@@ -15,23 +15,21 @@
         <div id="login">
             <div id="login_form">
                 <form action="php/find_pw.php" method="post">
+                        <!--이름-->
                     <label>
-                        <!-- <span>이름</span> -->
                         <p style="text-align: left; font-size:12px; color:#666"></p>
                         <input type="text" name="name" placeholder="이름" class="size" required>
                     </label>
-                        <!-- <span>ID</span> -->
-                        <p style="text-align: left; font-size:12px; color:#666"></p>
-                        <input type="text" name="id" placeholder="아이디" class="size" required>
-                        <p></p>
-                    </label>
                         <!--아이디-->
                     <label>
-                        <!-- <span>PHONE</span> -->
+                        <p style="text-align: left; font-size:12px; color:#666"></p>
+                        <input type="text" name="id" placeholder="아이디" class="size" required>
+                    </label>
+                        <!--전화번호-->
+                    <label>
                         <p style="text-align: left; font-size:12px; color:#666"></p>
                         <input type="tel" name="phone" placeholder="전화번호(-빼고 숫자만 입력)" class="size" required>
                     </label>
-                        <!--전화번호-->
                     <br>
                     <p>
                         <input type="submit" value="비밀번호 찾기" class="btn">
