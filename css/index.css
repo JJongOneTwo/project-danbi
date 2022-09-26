@@ -16,21 +16,28 @@
     a:focus { text-decoration: none; }
     a:hover, a:active { text-decoration: none; }
     header{
-        margin-top: 60px;
+        margin-top: 40px;
         margin-left: 85px;
         font-size: 65px;
     }
     .title{
+        display:auto;
         font-size: 65px;
         }
+    nav{
+        float: right;
+    }
+    
     .login{
-        margin-left: 1350px;
+        display:auto;
+        margin-left: auto;
         margin-right: 20px;
         font-size: 30px;
         white-space: nowrap;
     }
     .register{
         font-size: 30px;
+        display:auto;
         white-space: nowrap;
     }
 	* {margin:0;padding:0;}
@@ -91,7 +98,7 @@
             font-size: 50px;
             }
         .login{
-            margin-left: 1950px;
+            margin-left: auto;
             margin-right: 20px;
             font-size: 25px;
             white-space: nowrap;
