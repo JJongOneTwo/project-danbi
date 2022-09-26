@@ -86,9 +86,10 @@
 
     
     footer{
-        margin-top: 740px;
-        margin-left: 1800px;
-        font-size: 10px;
+        float: right;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        font-size: 40px;
         color: #1f7dd4;
         white-space : nowrap;
     }
