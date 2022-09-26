@@ -16,16 +16,19 @@
     a:focus { text-decoration: none; }
     a:hover, a:active { text-decoration: none; }
     header{
-        margin-top: 40px;
-        margin-left: 85px;
+        margin-top: 30px;
+        margin-left: 65px;
         font-size: 65px;
     }
     .title{
         display:auto;
         font-size: 65px;
         }
+
     nav{
         float: right;
+        display: auto;
+        margin-right: 40px;
     }
     
     .login{
