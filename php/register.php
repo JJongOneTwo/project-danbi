@@ -4,7 +4,8 @@
 		isset($_POST['password']) && 
 		isset($_POST['confirm']) && 
 		isset($_POST['phone']) && 
-		isset($_POST['email'])
+		isset($_POST['email']) &&
+	   	isset($_POST['date'])
 	)
 	{
 		$name = $_POST['name'];
@@ -13,12 +14,12 @@
 		$confirm = $_POST['confirm'];
 		$phone = $_POST['phone'];
 		$email = $_POST['email'];
-		
+		$register_date = $_POST['date'];
 		$code = hash("sha256", uniqid($id));
 
-		$conn = mysqli_connect('localhost', 'rudrleo', 'rudrleoWkd!2', 'CSproject');
+		$conn = mysqli_connect('localhost', 'jw', 'rudrleoWkd!2', 'danbi');
 		$check_overlap = "SELECT * from user WHERE id = '{$id}' OR phone = {$phone} OR email = '{$email}'";
-		$sql = "INSERT INTO user(name,id,password,phone,email,ticket_code) VALUES('{$name}', '{$id}', SHA2('{$pw}', 256), $phone, '{$email}', '{$code}')";
+		$sql = "INSERT INTO user(name,id,password,phone,email,date) VALUES('{$name}', '{$id}', SHA2('{$pw}', 256), $phone, '{$email}', '{$register_date}')";
 
 		if(mysqli_query($conn, $check_overlap) == "")
 		{
